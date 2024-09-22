@@ -8,18 +8,17 @@ const HeroSection = () => {
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-12 lg:gap-12">
         <div className="col-span-7 flex flex-col justify-center text-center sm:text-left lg:text-left">
-          <h1 className="text-white text-left mb-4 text-4xl lg:text-6xl sm:text-5xl font-extrabold">
+          <h1 className="text-white text-left mb-4 text-4xl lg:text-7xl sm:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I'm{" "}
             </span>
             <br />
-            {/* Rishitha Bura */}
             <span>
             <TypeAnimation
               sequence={[
                 "Rishitha",
                 2500,
-                "Full-Stack Developer",
+                "FullStack Developer",
                 2500,
                 "Web Developer",
                 2500,
@@ -46,7 +45,7 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-16">
+        <div className="col-span-5 place-self-center mt-4 lg:mt-14">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
