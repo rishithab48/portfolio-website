@@ -14,21 +14,21 @@ const HeroSection = () => {
             </span>
             <br />
             <span>
-            <TypeAnimation
-              sequence={[
-                "Rishitha",
-                2500,
-                "FullStack Developer",
-                2500,
-                "Web Developer",
-                2500,
-                "Data Analyst",
-                2500,
-              ]}
-              wrapper="span"
-              speed={10}
-              repeat={Infinity}
-            />
+              <TypeAnimation
+                sequence={[
+                  "Rishitha",
+                  2500,
+                  "FullStack Developer",
+                  2500,
+                  "Web Developer",
+                  2500,
+                  "Data Analyst",
+                  2500,
+                ]}
+                wrapper="span"
+                speed={10}
+                repeat={Infinity}
+              />
             </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
