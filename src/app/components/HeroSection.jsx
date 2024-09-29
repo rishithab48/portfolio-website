@@ -2,12 +2,13 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import {motion} from "framer-motion";
 
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12 lg:gap-12">
-        <div className="col-span-7 flex flex-col justify-self-start text-center sm:text-left lg:text-left ">
+        <motion.div initial={{opacity:0, scale:0.75}} animate={{opacity:1, scale:1}} transition={{duration: 1}} className="col-span-7 flex flex-col justify-self-start text-center sm:text-left lg:text-left ">
           <h1 className="text-white text-left mb-4 text-4xl lg:text-8xl lg:leading-normal sm:text-5xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I'm{" "}
@@ -44,8 +45,8 @@ const HeroSection = () => {
               </span>
             </button>
           </div>
-        </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-14">
+        </motion.div>
+        <motion.div initial={{opacity:0, scale:0.75}} animate={{opacity:1, scale:1}} transition={{duration: 1}} className="col-span-5 place-self-center mt-4 lg:mt-14">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
@@ -55,7 +56,7 @@ const HeroSection = () => {
               height={300}
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
