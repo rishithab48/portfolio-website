@@ -34,9 +34,9 @@ const EmailSection = () => {
     }
   };
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="z-10">
+      <div className="z-0">
         <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
@@ -45,11 +45,15 @@ const EmailSection = () => {
           best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com/">
+          <Link href="https://github.com/rishithab48" passHref legacyBehavior>
+          <a target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
+            </a>
           </Link>
-          <Link href="linkedin.com/">
+          <Link href="https://www.linkedin.com/in/rishitha-bura-36a035231/" passHref legacyBehavior>
+          <a target="_blank">
             <Image src={LinkedInIcon} alt="Linkedin Icon" />
+            </a>
           </Link>
         </div>
       </div>
