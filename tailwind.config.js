@@ -12,8 +12,8 @@ module.exports = {
         ...colors,
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: colors.purple,
-        secondary: colors.pink,
+        primary: colors.teal,
+        secondary: colors.fuchsia,
         
       },
     },

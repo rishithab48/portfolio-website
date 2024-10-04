@@ -6,6 +6,7 @@ import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import Achievements from "./components/Achievements";
+import ImagesSwiper from "./components/ImagesSwiper";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Achievements />
       <AboutSection />
       <ProjectSection />
+      <ImagesSwiper />
       <EmailSection />
       </div>
       <Footer/>

@@ -10,10 +10,10 @@ const projectsData = [
     id: 1,
     title: "Novelology",
     description: "Social Media Website for book lovers",
-    image: "/images/about-image.png",
+    image: "/images/projects/novelology.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/WSU-4110/Novelology",
+    previewUrl: "https://novelology.netlify.app/",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     description: "Rishitha Bura Portfolio",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/rishithab48/portfolio-website",
     previewUrl: "/",
   },
 ];
