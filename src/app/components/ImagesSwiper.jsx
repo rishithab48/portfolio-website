@@ -5,6 +5,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Image from "next/image";
 
 const imgs = [
   { id: 1, src: "/images/slider-images/1.jpg" },
@@ -40,10 +41,11 @@ export default function ImagesSwiper() {
                 key={img.id}
                 className="flex justify-center items-center"
               >
-                <img
+                <Image
                   src={img.src}
                   alt="slider-image"
                   className="block object-cover max-w-full max-h-full w-auto h-auto"
+                  width={500} height={500}
                 />
               </SwiperSlide>
             ))}
