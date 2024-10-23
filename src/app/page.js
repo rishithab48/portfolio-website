@@ -6,7 +6,8 @@ import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import Achievements from "./components/Achievements";
-import ImagesSwiper from "./components/ImagesSwiper";
+// import ImagesSwiper from "./components/ImagesSwiper";
+import WorkExperience from "./components/WorkExperience";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <Achievements />
       <AboutSection />
+      <WorkExperience />
       <ProjectSection />
       {/* <ImagesSwiper /> */}
       <EmailSection />

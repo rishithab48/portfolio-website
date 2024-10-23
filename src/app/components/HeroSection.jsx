@@ -38,7 +38,7 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            A motivated and passionate computer science student with an interest
+            Motivated and passionate computer science student with an interest
             in developing full-stack applications. Experienced working in both
             front-end and back-end development. Currently exploring Data
             Analytics and Machine Learning.
